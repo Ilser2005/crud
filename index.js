@@ -18,14 +18,14 @@ conexion.connect((error) => {
     else {
         console.log('Registro insertado');
     }
-});*/
+});
 conexion.query('UPDATE cursos SET nombre = "PHP", creditos = 6, instructor = "Adolfo Chumacero" WHERE id = 1', (error, resultado) => {
     if (error) throw error;
     else {
         console.log('Registro actualizado');
     }               
-});
-conexion.query('DELETE FROM cursos WHERE id = 1', (error, resultado) => {
+});*/
+conexion.query('DELETE FROM cursos WHERE id = 7', (error, resultado) => {
     if (error) throw error;
     else {
         console.log('Registro eliminado');

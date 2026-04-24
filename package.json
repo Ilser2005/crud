@@ -12,5 +12,13 @@
   "type": "commonjs",
   "dependencies": {
     "mysql": "^2.18.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ilser2005/crud.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Ilser2005/crud/issues"
+  },
+  "homepage": "https://github.com/Ilser2005/crud#readme"
 }
